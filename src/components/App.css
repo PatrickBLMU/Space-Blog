@@ -14,10 +14,14 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  font-family: cursive;
+  background-color: Black;
   color: white;
   grid-column: 1 / span 2;
   padding: 10px 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 18px;
 }
 
 form {
@@ -25,6 +29,8 @@ form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 98.8%;
+  height: 100%;
 }
 
 form input,
@@ -40,7 +46,12 @@ article {
 }
 
 nav {
-  background-color: #dee9ff;
+  background-image: url('https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bmlnaHQlMjBza3l8ZW58MHx8MHx8fDA%3D');
+  background-size: cover;
+  color: #800000;
+  font-size: 25px;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav p:hover {
@@ -60,4 +71,11 @@ article .body {
   background-color: red;
   color: gold;
   padding: 5px;
+}
+
+article, form{
+  background-image: url('https://wallpapercat.com/w/full/5/a/0/306069-3840x2160-desktop-4k-interstellar-wallpaper.jpg');
+  background-size: cover;
+  color: White;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

@@ -1,7 +1,7 @@
-# A Blog Starter App
+# A Blog
 
-This is a trivial blog app, started with Vite.
+My homework 3 in CMSI 2021. The assignment requires a 'Blog'. The theme with the blog is outer space, a place to sort of rant without direction. The webapp allows for entries to be stored and access through an authentication method. Once signing in, would give the ability to view old and make new entries that is saved throught the data base
 
-It works entirely within memory, so reloads blow everything away except for the first two mock articles.
+Website Link: https://womp-df1c7.web.app
 
-This repo is designed for you to fork and extend with (1) better CSS and (2) a real back end, with authentication and a database.
+The work done to the website is by Patrick Banal.
